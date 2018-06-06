@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/channa/dumps/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/channa/workspace/mobile/SAMMY/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/channa/workspace/mobile/SAMMY/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/channa/dumps/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/channa/dumps/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/channa/dumps/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/channa/workspace/mobile/SAMMY/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/channa/workspace/mobile/SAMMY/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/home/channa/workspace/mobile/SAMMY/SammyWiFiLib/sammywifilibrary/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/home/channa/.android/build-cache/de559066e4385031aae0b298cff35748869d43b0/output/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/channa/dumps/SammyWiFiLib/sammywifilibrary/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/home/channa/.android/build-cache/de559066e4385031aae0b298cff35748869d43b0/output/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]

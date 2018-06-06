@@ -1,0 +1,92 @@
+[
+    {
+        "outputFile": "/home/channa/dumps/SammyWiFiLib/sammywifilibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v16/values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 289
+                },
+                "from": {
+                    "file": "/home/channa/.android/build-cache/de559066e4385031aae0b298cff35748869d43b0/output/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 223
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/channa/workspace/mobile/SAMMY/SammyWiFiLib/sammywifilibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v16/values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "/home/channa/.android/build-cache/6f653882f08f76f0f8c16a39fd13188b6d1bd1ba/output/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 289
+                },
+                "from": {
+                    "file": "/home/channa/.android/build-cache/de559066e4385031aae0b298cff35748869d43b0/output/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 223
+                    }
+                }
+            }
+        ]
+    }
+]
