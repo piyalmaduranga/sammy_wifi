@@ -30,17 +30,18 @@ public class MainActivity extends AppCompatActivity {
                 return; // to stop the thread
             }
         }).start();
-        //boolean ismacExsist =WifiLogin.isMacExsist(devicemac);
+       // boolean ismacExsist =WifiLogin.isMacExsist(devicemac);
+       // System.out.println(ismacExsist);
         final JSONObject jsonObj = new JSONObject();
         //JSONObject loginInfo = new JSONObject();
         try{
             jsonObj.put("action", "login");
-            jsonObj.put("username", "chamilchaturanga");
-            jsonObj.put("password", "6CB749574445");
+            jsonObj.put("username", "chamil@gmail.com");
+            jsonObj.put("password", "0714814700");
         }catch (Exception e){
             System.out.println(e);
         }
-     //  WifiLogin.Login(jsonObj);
+        WifiLogin.Login(jsonObj);
 
         JSONObject sinupJson = new JSONObject();
         JSONObject profile = new JSONObject();
@@ -53,11 +54,9 @@ public class MainActivity extends AppCompatActivity {
             profile.put("password", "0714814700");
             profile.put("email", "chamil@gmail.com");
             profile.put("username", "chamil@gmail.com");
-            loginInfo.put("apMAC","00-04-56-95-97-91");
-            loginInfo.put("deviceMAC" , WifiLogin.getMacAddr());
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        WifiLogin.Signup(sinupJson);
+        //WifiLogin.Signup(sinupJson);
     }
 }

@@ -155,11 +155,13 @@ public class WifiLogin {
                     String responseStr = response.body().string();
                     //loginToGateway("mac".getBytes(), "maddu");
                     try{
-                        JSONObject resObj = new JSONObject(responseStr);
-                        JSONObject user =resObj.getJSONObject("user");
-                        String username = logindetail.getString("deviceMAC");
-                        String password = logindetail.getString("password");
-                        loginToGateway(username, password , vender);
+                        JSONObject res = new JSONObject(responseStr);
+                        JSONObject resObj = res.getJSONObject("response");
+                        if(resObj.getString("reason").equalsIgnoreCase("allowed")){
+                            String username = normalizeMAC(deviceMac);
+                            String password = deviceMac.replace(":","");
+                            loginToGateway(username, password , vender);
+                        }
                     }catch (JSONException e){
                         System.out.print(e);
                     }
@@ -175,6 +177,14 @@ public class WifiLogin {
 
     public static void Signup(final JSONObject signupdetail){
 
+        try {
+            JSONObject loginInfo = new JSONObject();
+            loginInfo.put("apMAC",apmac);
+            loginInfo.put("deviceMAC" , deviceMac);
+            signupdetail.put("loginInfo",loginInfo);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
         ApiOkhttp api = new ApiOkhttp();
         //postCall for login
         api.postCall( BASE_URL, signupdetail.toString(), new Callback() {
