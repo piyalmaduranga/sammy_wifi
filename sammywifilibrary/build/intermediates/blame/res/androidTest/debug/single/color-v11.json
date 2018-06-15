@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/channa/workspace/mobile/SAMMY/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/channa/.android/build-cache/de1742b9ab167878690e214bfdeaaa0dcd267a27/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/channa/workspace/mobile/SAMMY/SammyWiFiLib/sammywifilibrary/build/intermediates/res/merged/androidTest/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/channa/.android/build-cache/de1742b9ab167878690e214bfdeaaa0dcd267a27/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

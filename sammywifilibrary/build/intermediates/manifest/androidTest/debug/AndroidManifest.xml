@@ -3,8 +3,8 @@
     package="com.example.sammywifilibrary.test" >
 
     <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="27" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
 
     <instrumentation
         android:name="android.support.test.runner.AndroidJUnitRunner"
@@ -12,6 +12,11 @@
         android:handleProfiling="false"
         android:label="Tests for com.example.sammywifilibrary.test"
         android:targetPackage="com.example.sammywifilibrary.test" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
